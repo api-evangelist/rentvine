@@ -1,0 +1,29 @@
+name: Rentvine API Rate Limits
+description: Rentvine describes its Open API as fully open with no published usage restrictions or rate limit quotas. The API is included with the subscription at no additional cost. Specific numeric limits are not publicly documented; developers should monitor performance and implement staged batching for bulk operations.
+url: https://docs.rentvine.com/
+limits:
+  - scope: general
+    description: No specific rate limit values are publicly documented by Rentvine. The API is described as open and unrestricted for subscribers.
+    documented: false
+    notes: >
+      Rentvine states there are "no usage restrictions or additional charges
+      for API access." For large-volume data operations, best practice is to
+      implement staged batches and monitor for any throttling responses.
+      Contact Rentvine support for specific rate limit guidance.
+authentication:
+  type: API Key + Secret
+  description: >
+    API keys are generated within Rentvine's Global Settings under
+    "User Roles and API." Each key consists of an API Key and API Secret.
+    The Secret is shown only once at creation time and must be stored
+    immediately. Keys are scoped to a role that defines permission levels.
+  key_management:
+    - Generate key in Settings > Users, Roles, and API
+    - Assign a role to control data access permissions
+    - Store the API Secret at creation — it cannot be retrieved afterward
+    - Keys can be edited, regenerated, or deleted as needed
+resources:
+  - name: API Documentation
+    url: https://docs.rentvine.com/
+  - name: API Key Creation Guide
+    url: https://help.rentvine.com/how-to-create-an-api-key

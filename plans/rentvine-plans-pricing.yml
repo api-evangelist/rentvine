@@ -1,0 +1,34 @@
+name: Rentvine Plans and Pricing
+description: Rentvine offers a single all-inclusive per-unit pricing plan for property management software with no feature paywalls or tiered access restrictions.
+url: https://www.rentvine.com/pricing
+plans:
+  - name: All-Inclusive Plan
+    description: Single pricing tier that includes all features — trust accounting, leasing automation, maintenance tools, tenant and owner portals, open API access, and AI assistant — with no add-ons or upsells.
+    model: per-unit
+    pricing:
+      - unit: active unit per month
+        rate: 1.50
+        currency: USD
+        notes: Rate starts as low as $1.50/unit/month; minimum monthly platform fee of $199 applies
+    included:
+      - Trust accounting with reconciliation automation
+      - Owner and tenant self-service portals
+      - Unlimited digital leases and e-signatures
+      - Maintenance management workflows
+      - Built-in AI assistant (voice and text task automation)
+      - Real-time reporting and customizable dashboards
+      - Open API and third-party integrations
+      - Online rental applications and tenant screening
+      - Automated management fee posting
+      - U.S.-based customer support
+    fees:
+      - type: onboarding
+        description: One-time onboarding fee; amount requires direct quote
+      - type: transaction
+        description: Transaction fees apply for payment processing
+      - type: screening
+        description: Tenant screening fees apply per report
+    notes: >
+      All features are available at every unit count. No feature paywalls,
+      no hidden charges. API access is included with no additional cost or
+      usage restrictions.

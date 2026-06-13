@@ -1,0 +1,51 @@
+name: Rentvine FinOps
+description: Financial operations guidance for teams consuming the Rentvine API and platform, covering cost structure, cost optimization, and budget planning for property management operations.
+url: https://www.rentvine.com/pricing
+costModel:
+  type: per-unit-per-month
+  currency: USD
+  description: >
+    Rentvine charges a flat per-unit monthly fee for all active units under
+    management. All features, including API access, are bundled — there are
+    no per-API-call charges or metered usage fees for the REST API itself.
+  baseRate:
+    amount: 1.50
+    unit: active unit
+    period: month
+    notes: Rate described as "as low as $1.50/unit/month"; exact rate depends on unit volume and contract
+  minimumMonthlyFee: 199
+  currency: USD
+  additionalFees:
+    - name: Onboarding Fee
+      type: one-time
+      amount: contact for quote
+      description: One-time implementation and onboarding fee required to start
+    - name: Transaction Fees
+      type: variable
+      description: Applied per payment processing transaction; rate depends on payment method
+    - name: Tenant Screening Fees
+      type: per-report
+      description: Per-report cost for tenant background and credit checks
+apiCosts:
+  included: true
+  additionalCharge: false
+  description: >
+    API access is included in the base subscription with no additional cost.
+    There are no per-call fees, no data egress charges, and no usage quotas
+    that incur overage billing.
+costOptimization:
+  - tip: Minimize active unit count by deactivating units no longer under management to reduce monthly billing
+  - tip: Use bulk API operations for data uploads rather than individual calls to reduce operational overhead
+  - tip: Leverage built-in automation (management fee posting, reconciliation) to reduce manual labor costs
+  - tip: Utilize the included AI assistant for workflow automation before purchasing third-party tools
+  - tip: Plan onboarding timing to minimize the ramp period before full unit volume is active
+budgetPlanning:
+  - scenario: Small portfolio (under 133 active units)
+    monthlyMinimum: 199
+    notes: Minimum monthly fee of $199 applies even below the per-unit breakeven threshold
+  - scenario: Mid-size portfolio (200 units at $1.50/unit)
+    estimatedMonthly: 300
+    notes: Estimate only; actual rate subject to contract terms
+  - scenario: Large portfolio (500 units at $1.50/unit)
+    estimatedMonthly: 750
+    notes: Estimate only; volume discounts may apply at scale
