@@ -1,0 +1,196 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "@id": "https://www.rentvine.com/",
+  "name": "Rentvine",
+  "description": "Rentvine is a modern property management platform offering a fully open RESTful API for managing properties, leases, tenants, maintenance requests, financials, and owner portals. The API provides real-time data access and supports custom integrations, workflow automation, and third-party software connectivity.",
+  "url": "https://www.rentvine.com/",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Property Management Software",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "description": "API access included with all subscriptions at no additional cost"
+  },
+  "featureList": [
+    "Property Management",
+    "Lease Management",
+    "Tenant Management",
+    "Maintenance Work Orders",
+    "Trust Accounting",
+    "Owner Portals",
+    "Financial Reporting",
+    "Vendor Management",
+    "Inspection Management",
+    "Portfolio Management",
+    "Screening and Applications",
+    "File Management",
+    "RESTful API"
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/company/rentvine",
+    "https://twitter.com/Rentvine_",
+    "https://github.com/Launch-Engine/rentvine"
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rentvine.com/open-api",
+    "name": "Rentvine Open API",
+    "description": "Rentvine open RESTful API documentation and developer resources"
+  },
+  "potentialAction": [
+    {
+      "@type": "ReadAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://docs.rentvine.com/",
+        "description": "Rentvine API Documentation"
+      }
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "Rentvine",
+    "url": "https://www.rentvine.com/",
+    "sameAs": [
+      "https://www.linkedin.com/company/rentvine",
+      "https://twitter.com/Rentvine_"
+    ]
+  },
+  "hasPart": [
+    {
+      "@type": "WebAPI",
+      "name": "Rentvine REST API",
+      "description": "RESTful API providing access to all Rentvine property management data including properties, units, leases, tenants, maintenance requests, work orders, financials, owner accounts, and portals.",
+      "documentation": "https://docs.rentvine.com/",
+      "termsOfService": "https://www.rentvine.com/",
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://docs.rentvine.com/"
+      },
+      "endpointDescription": [
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "GET /properties",
+          "description": "List properties"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "POST /properties",
+          "description": "Create a property"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "GET /properties/{property_id}",
+          "description": "View a property"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "GET /properties/{property_id}/units",
+          "description": "List units for a property"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "GET /leases",
+          "description": "List leases"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "GET /leases/{lease_id}",
+          "description": "View a lease"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "GET /leases/export",
+          "description": "Export leases"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "GET /tenants/search",
+          "description": "Search tenants"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "GET /owners/search",
+          "description": "Search owners"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "GET /vendors/search",
+          "description": "Search vendors"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "GET /maintenance/work-orders",
+          "description": "List maintenance work orders"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "POST /maintenance/work-orders",
+          "description": "Create a maintenance work order"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "GET /maintenance/inspections",
+          "description": "List inspections"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "GET /accounting/accounts",
+          "description": "List accounting accounts"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "GET /accounting/bills",
+          "description": "List bills"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "POST /accounting/bills",
+          "description": "Create a bill"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "GET /accounting/ledgers",
+          "description": "List ledgers"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "GET /accounting/transactions/search",
+          "description": "Search transactions"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "GET /files",
+          "description": "List files"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "POST /files",
+          "description": "Upload a file"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "GET /portfolios/search",
+          "description": "Search portfolios"
+        },
+        {
+          "@type": "EntryPoint",
+          "urlTemplate": "GET /screenings/application/export",
+          "description": "Export screening applications"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    "property management",
+    "real estate",
+    "leasing",
+    "tenant management",
+    "maintenance",
+    "trust accounting",
+    "owner portals",
+    "REST API",
+    "property software"
+  ]
+}
