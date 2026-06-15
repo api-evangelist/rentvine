@@ -114,5 +114,24 @@
       "category": "Customer Case Studies",
       "description": "Details operational modernization achievements including efficiency gains and integration capabilities."
     }
-  ]
+  ],
+  "repo": "rentvine",
+  "feeds": [
+    {
+      "source": "https://docs.rentvine.com/",
+      "feed_url": "https://docs.rentvine.com/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://github.com/Launch-Engine/rentvine",
+      "feed_url": "https://github.com/Launch-Engine/rentvine",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
