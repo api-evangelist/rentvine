@@ -1,137 +1,14 @@
 {
-  "url": "https://www.rentvine.com/blog",
-  "retrieved": "2026-06-13",
-  "posts": [
-    {
-      "title": "Rentvine Named #1 Property Management Software in PropertyManagement.com's 2026 Vendor Performance Index",
-      "url": "https://www.rentvine.com/blog/rentvine-named-1-property-management-software",
-      "category": "Education",
-      "description": "Independent verification ranks Rentvine as top property management software with exceptional operator recommendation scores and client satisfaction metrics."
-    },
-    {
-      "title": "Best CRM for Property Management Companies",
-      "url": "https://www.rentvine.com/blog/best-crm-property-management-companies",
-      "description": "Examines optimal CRM selection for property management firms, comparing leading platforms and Rentvine's approach."
-    },
-    {
-      "title": "Best Software Stack for Property Management Marketing & Operations",
-      "url": "https://www.rentvine.com/blog/property-management-software-stack",
-      "description": "Explores essential software components for modern property managers across operations, accounting, marketing, and business development."
-    },
-    {
-      "title": "What Makes Property Management Software Reliable at Scale",
-      "url": "https://www.rentvine.com/blog/reliable-property-management-software-at-scale",
-      "description": "Identifies distinguishing factors for dependable platforms, including trust accounting, performance, integrations, and scalability."
-    },
-    {
-      "title": "The Right Time to Switch: How Growth Forced Better Systems for Sunlight Property Management",
-      "url": "https://www.rentvine.com/blog/the-right-time-to-switch--how-growth-forced-better-systems-for-sunlight-property-management-",
-      "category": "Customer Case Studies",
-      "description": "Case study documenting how a company eliminated manual processes and improved accounting clarity through system migration."
-    },
-    {
-      "title": "Best Property Management Accounting Software",
-      "url": "https://www.rentvine.com/blog/best-property-management-accounting-software",
-      "description": "Identifies leading accounting solutions emphasizing automation, operational efficiency, and scalability for growing firms."
-    },
-    {
-      "title": "The Renter's Insurance Problem",
-      "url": "https://www.rentvine.com/blog/the-renters-insurance-problem",
-      "description": "Addresses operational challenges surrounding renter's insurance compliance and HO4 integration solutions."
-    },
-    {
-      "title": "How Your Software Stack Impacts Website Conversions & Leasing Performance",
-      "url": "https://www.rentvine.com/blog/property-management-software-conversions",
-      "description": "Analyzes relationships between software infrastructure, conversion rates, leasing success, and operational growth."
-    },
-    {
-      "title": "How to Set Better Rental Pricing Using Market Data & Portfolio Insights",
-      "url": "https://www.rentvine.com/blog/how-to-set-better-rental-pricing-using-market-data--portfolio-insights",
-      "description": "Discusses pricing strategy optimization leveraging market research and portfolio analysis."
-    },
-    {
-      "title": "Everything That Happened at Be Herd 2026",
-      "url": "https://www.rentvine.com/blog/everything-that-happened-at-be-herd-2026",
-      "description": "Comprehensive coverage of the annual user conference including product announcements, AI innovations, and networking events."
-    },
-    {
-      "title": "Rentvine Unveils Industry-First MCP and Pro Skills Agent Workforce at Be Herd 2026",
-      "url": "https://www.rentvine.com/blog/rentvine-unveils-industry-first-mcp",
-      "category": "What's New With Rentvine",
-      "description": "Announces industry-leading technology and workforce innovations revealed at the May 2026 conference in Tampa."
-    },
-    {
-      "title": "Don't Let Your Enterprise Bank Credits Go to Waste",
-      "url": "https://www.rentvine.com/blog/dont-let-your-enterprise-bank-credits-go-to-waste-use-them-for-rentvine",
-      "category": "What's New With Rentvine",
-      "description": "Guides users on redeeming Enterprise Bank & Trust credits for Rentvine services."
-    },
-    {
-      "title": "Payday Just Got an Upgrade: Discover the New Owner Payment Flow",
-      "url": "https://www.rentvine.com/blog/payday-just-got-an-upgrade-discover-the-new-owner-payment-flow",
-      "category": "What's New With Rentvine",
-      "description": "Highlights enhanced owner payment workflows delivering faster processing and improved transparency."
-    },
-    {
-      "title": "Tip of the Week: Episode 36 - Listing Properties Within Rentvine",
-      "url": "https://www.rentvine.com/blog/tip-of-the-week-episode-36---listing-properties-within-rentvine",
-      "category": "Education",
-      "description": "Tutorial demonstrating AI-powered listing syndication with automated descriptions and integrated marketing tools."
-    },
-    {
-      "title": "Tip of the Week: Episode 35 - Global Communication",
-      "url": "https://www.rentvine.com/blog/tip-of-the-week-episode-35---global-communication",
-      "category": "Education",
-      "description": "Shows unified communication tracking across chat, email, and messaging platforms within the software ecosystem."
-    },
-    {
-      "title": "A Smarter Way to Manage Lease Renewals at Scale",
-      "url": "https://www.rentvine.com/blog/a-smarter-way-to-manage-lease-renewals-at-scale",
-      "category": "Release Notes",
-      "description": "Introduces automated lease renewal workflows reducing manual effort and errors during scaling operations."
-    },
-    {
-      "title": "Introducing Decision View: One View to Rule Them All",
-      "url": "https://www.rentvine.com/blog/introducing-decision-view-one-view-to-rule-them-all",
-      "category": "Release Notes",
-      "description": "Presents unified application review interface streamlining leasing decision-making processes."
-    },
-    {
-      "title": "Rentvine Product Updates: New Features, Enhancements, and Fixes",
-      "url": "https://www.rentvine.com/blog/rentvine-product-updates-new-features-enhancements-and-fixes-to-power-your-workflow",
-      "category": "Release Notes",
-      "description": "Comprehensive update summary covering maintenance, accounting, screening, and system improvements."
-    },
-    {
-      "title": "How Sapir Realty Turned a Failed Software Switch Into Success",
-      "url": "https://www.rentvine.com/blog/sapir-realty-case-study",
-      "category": "Customer Case Studies",
-      "description": "Documents how a difficult platform migration ultimately transformed operations positively."
-    },
-    {
-      "title": "Performance Asset Management Embraces the Future of Property Management",
-      "url": "https://www.rentvine.com/blog/performance-asset-management-embraces-the-future-of-property-management-with-rentvine",
-      "category": "Customer Case Studies",
-      "description": "Details operational modernization achievements including efficiency gains and integration capabilities."
-    }
-  ],
   "repo": "rentvine",
   "feeds": [
     {
-      "source": "https://docs.rentvine.com/",
-      "feed_url": "https://docs.rentvine.com/",
-      "title": "",
+      "source": "https://www.rentvine.com/blog",
+      "feed_url": "",
       "saved": 0,
-      "method": "none"
-    },
-    {
-      "source": "https://github.com/Launch-Engine/rentvine",
-      "feed_url": "https://github.com/Launch-Engine/rentvine",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "method": "agent-scrape"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 4,
+  "fetched": "2026-06-27T13:06:16Z",
+  "agent_pulled": "2026-06-27"
 }

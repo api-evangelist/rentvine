@@ -62,7 +62,7 @@ common:
     url: https://github.com/Launch-Engine/rentvine
   - type: Blog
     url: blogs/blogs.json
-  - type: JSONLd
+  - type: JSONLD
     url: json-ld/rentvine.json
   - type: Plans
     url: plans/rentvine-plans-pricing.yml
