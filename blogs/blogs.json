@@ -2,13 +2,21 @@
   "repo": "rentvine",
   "feeds": [
     {
-      "source": "https://www.rentvine.com/blog",
-      "feed_url": "",
+      "source": "https://docs.rentvine.com/",
+      "feed_url": "https://docs.rentvine.com/",
+      "title": "",
       "saved": 0,
-      "method": "agent-scrape"
+      "method": "none"
+    },
+    {
+      "source": "https://github.com/Launch-Engine/rentvine",
+      "feed_url": "https://github.com/Launch-Engine/rentvine",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "post_count": 4,
-  "fetched": "2026-06-27T13:06:16Z",
+  "post_count": 10,
+  "fetched": "2026-07-11T11:50:51Z",
   "agent_pulled": "2026-06-27"
 }
