@@ -6,17 +6,19 @@
       "feed_url": "https://docs.rentvine.com/",
       "title": "",
       "saved": 0,
-      "method": "none"
+      "method": "none",
+      "error": "parse_failed"
     },
     {
       "source": "https://github.com/Launch-Engine/rentvine",
       "feed_url": "https://github.com/Launch-Engine/rentvine",
       "title": "",
       "saved": 0,
-      "method": "none"
+      "method": "none",
+      "error": "parse_failed"
     }
   ],
   "post_count": 10,
-  "fetched": "2026-08-06T14:08:46Z",
+  "fetched": "2026-08-15T12:11:08Z",
   "agent_pulled": "2026-06-27"
 }
