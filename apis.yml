@@ -7,6 +7,17 @@ description: >
   integrations, workflow automation, and third-party software connectivity. API
   access is included with all subscriptions at no additional cost, with no usage
   restrictions or rate limit quotas published.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
