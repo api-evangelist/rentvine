@@ -70,6 +70,13 @@ apis:
       - Leases
       - Tenants
       - Maintenance
+      - Financial
+      - Owner Portals
+    tags_raw:
+      - Property Management
+      - Leases
+      - Tenants
+      - Maintenance
       - Financials
       - Owner Portals
     properties:
