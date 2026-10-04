@@ -37,7 +37,7 @@ modified: 2026-06-13
 specificationVersion: '0.23'
 tags:
   - Property Management
-  - Real-Estate
+  - Real Estate
   - Leasing
   - Tenant Management
   - Maintenance
@@ -53,6 +53,7 @@ tags_raw:
   - Trust Accounting
   - Owner Portals
   - REST API
+  - Real-Estate
 apis:
   - aid: rentvine:rentvine-api
     name: Rentvine REST API
@@ -70,7 +71,7 @@ apis:
       - Leases
       - Tenants
       - Maintenance
-      - Financial
+      - Finance
       - Owner Portals
     tags_raw:
       - Property Management
@@ -79,6 +80,7 @@ apis:
       - Maintenance
       - Financials
       - Owner Portals
+      - Financial
     properties:
       - type: Documentation
         url: https://docs.rentvine.com/
