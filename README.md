@@ -64,16 +64,104 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Rentvine is a modern property management platform offering a fully open RESTful API for managing properties, leases, tenants, maintenance requests, financials, and owner portals with real-time data access.
+Rentvine is a modern property management platform offering a fully open RESTful API for managing properties, leases, tenants, maintenance requests, financials, and owner portals. The API provides real-time data access and supports custom integrations, workflow automation, and third-party software connectivity. API access is included with all subscriptions at no additional cost, with no usage restrictions or rate limit quotas published.
 
-- **Website**: https://www.rentvine.com/
-- **API**: https://www.rentvine.com/open-api
-- **Documentation**: https://docs.rentvine.com/
-- **Blog**: https://www.rentvine.com/blog
-- **Pricing**: https://www.rentvine.com/pricing
-- **LinkedIn**: https://www.linkedin.com/company/rentvine
-- **X**: https://twitter.com/Rentvine_
+**Areas:** Property Management · Real Estate · Leasing · Tenant Management · Maintenance · Trust Accounting · Owner Portals · REST API
 
-## APIs.json
+## Rentvine on APIs.io
 
-This repository contains an APIs.json 0.19 profile for Rentvine, maintained by [API Evangelist](https://apievangelist.com).
+Everything profiled for Rentvine is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rentvine/](https://apis.io/providers/rentvine/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Rentvine REST API](https://apis.io/apis/rentvine/rentvine-api/) — RESTful API providing access to all Rentvine property management data including properties, units, leases, tenants, maintenance requests, work orders,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rentvine Domain Security](https://apis.io/security/rentvine/rentvine-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Rentvine Plans Pricing](https://apis.io/plans/rentvine/rentvine-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rentvine Rate Limits](https://apis.io/rate-limits/rentvine/rentvine-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Rentvine Finops](https://apis.io/finops/rentvine/rentvine-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.rentvine.com/)
+- [Documentation](https://docs.rentvine.com/)
+- [Pricing](https://www.rentvine.com/pricing)
+- [Blog](https://www.rentvine.com/blog)
+
+## API Evangelist rating
+
+**Kin Score 18.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 24.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 15.8 |
+
+**Agent readiness 13.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rentvine/](https://apis.io/providers/rentvine/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Rentvine: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rentvine/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
